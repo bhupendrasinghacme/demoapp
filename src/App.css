@@ -156,6 +156,32 @@ body {
   color: #111111;
   font: normal normal 600 18px/22px Poppins;
 }
+.heder_wrap {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 22px;
+}
+
+.heder_wrap h1 {
+  font: normal normal 600 14px/19px Poppins;
+  margin: 0;
+}
+
+.subtitle_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subtitle_wrap h2 {
+  font: normal normal 600 12px/36px Poppins;
+  margin: 0;
+}
+
+.subtitle_wrap {}
+
+.time_wrap {}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;

@@ -11,7 +11,7 @@ function Categorycard({
   return (
     <div className='categorey_card'>
        <Card sx={{ maxWidth: 345 }}>
-      <div>{img_url}</div>
+      <div><img src={img_url} alt="img1" /></div>
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
          {heading}
